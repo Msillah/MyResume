@@ -3,9 +3,9 @@ body{
     line-height: 1.7;
     font-family: serif; 
     font-size: 125%;
-    background-image:url(../images/20180217_142237.jpg);
+    background-image:url(../images/IMG_9555.JPG);
     background-size:cover;
-    display: inline
+    display: inline;
 }
 
   }
@@ -80,7 +80,7 @@ body{
     
     .menu a:hover {
         color: white;
-        background-color:darkcy;
+        background-color:darkcyan;
 }
 
 .footer {
@@ -95,15 +95,10 @@ body{
     margin: 1em;
     
 }
-.menu a:active {
-    color: black;
+.menu a.active {
+    background-color: darkgray;
 }
 
-.image {
-    display: subgrid;
-    width: auto;
-}
-
-.hover {
-    color:darkcyan;
+.active {
+   color:cadetblue;
 }
